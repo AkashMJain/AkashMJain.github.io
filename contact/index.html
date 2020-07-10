@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, noarchive" />
-	<title>Akash Jain - Portfolio - Home</title>
+	<title>Akash Jain - Portfolio - Contact</title>
 	<link rel="icon" href="/favicon.ico" />
 	<meta name="description" content="I am a software developer. I&#39;ve completed my engineering in Computer Science from Mumbai University, India." />
 	<script src="https://www.google.com/recaptcha/api.js?render=6LeAOu0UAAAAAPhVwnsQCsew6BwGiA56NXD3gLap"></script>
@@ -15,18 +15,15 @@
 
 	
 
-	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/undraw_hacker_mindset_gjwq.svg"/>
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Contact"/>
+<meta name="twitter:description" content="Send me a message!"/>
 
-<meta name="twitter:title" content="Home"/>
-<meta name="twitter:description" content="I am a software developer. I&#39;ve completed my engineering in Computer Science from Mumbai University, India."/>
-
-	<meta property="og:title" content="Home" />
-<meta property="og:description" content="I am a software developer. I&#39;ve completed my engineering in Computer Science from Mumbai University, India." />
+	<meta property="og:title" content="Contact" />
+<meta property="og:description" content="Send me a message!" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:image" content="/undraw_hacker_mindset_gjwq.svg" />
-<meta property="og:updated_time" content="2018-12-17T22:21:42+01:00" />
+<meta property="og:url" content="/contact/" />
+
 
 
 	
@@ -58,7 +55,7 @@
         
         
         <li class="menu__items__item" aria-label="Home">
-            <a href="/" class="menu__items__item__link active"
+            <a href="/" class="menu__items__item__link "
                 alt="Home" role="menuitem">
                 Home
             </a>
@@ -72,7 +69,7 @@
         </li>
         
         <li class="menu__items__item" aria-label="Contact">
-            <a href="/contact/" class="menu__items__item__link "
+            <a href="/contact/" class="menu__items__item__link active"
                 alt="Contact" role="menuitem">
                 Contact
             </a>
@@ -111,38 +108,51 @@
     </div>
 </nav>
 </header>
-<main class="hero" 
-    style="background-image: url('/images/undraw_hacker_mindset_gjwq.svg');" >
-    <div class="hero__caption" >
-            <h1 id="hi-im-akash-jain">Hi, I&rsquo;m Akash Jain.</h1>
-<h2 id="currently-looking-for-job-opportunities-in-a-it-field">Currently looking for job opportunities in a IT field.</h2>
+<main class="contact">
+    <h1 class="contact__title">Contact</h1>
+    <p class="contact__content">Send me a message!</p>
+
+    <form action="https://getform.io/f/d14d37e3-9657-4929-b41b-44a61f007e31" method="post" class="contact__form"
+            id="contactForm">
+    
+            
+            <div class="contact__field contact__field--name">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Your name"
+                    class="contact__form__input contact__form__name" id="name"
+                    aria-labelledby="name" required>
+            </div>
 
             
-            <a href="/contact" class="ripple-btn cta__btn" alt="Contact"
-    aria-label="Contact">
-    Contact
-</a>
+            <div class="contact__field contact__field--email">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Your email"
+                    class="contact__form__input contact__form__email" id="email"
+                    aria-labelledby="email" required>
+            </div>
+
             
-    </div>
+            <div class="contact__field contact__field--msg">
+                <label for="message">Write something</label>
+                <textarea name="message" id="message" form="contactForm"
+                    maxlength="750" id="message"
+                    arial-labelledby="message" required></textarea>
+            </div>
+                
+            
+            <div class="contact__field contact__field--submit">
+                
+                <div class="g-recaptcha" data-sitekey="6LeAOu0UAAAAAPhVwnsQCsew6BwGiA56NXD3gLap"></div><br>
+                <br>
+                <br>
+
+                <button type="submit" class="ripple-btn submit" onclick="cleanForm" aria-label="Send">
+                    Send
+                </button>
+            </div>
+
+        </form>
 </main>
-
-
-
-
-
-<section class="section">
-    <h1 class="section__title">About Me</h1>
-    <div class="section__content">
-        <p>I am a software developer. I&rsquo;ve completed my engineering in Computer Science from Mumbai University, India.</p>
-<p>Currently working on several pet projects which can help me improve, I am open to opportunities, if you want to see my work please fill free to traverse around the website.</p>
-<p>If you want to contribute to projects, I work on please feel free to DM me in any of the following options or <a href="contact">contact me</a> page, or you can look at the source code yourself at my github repository. I try my best to implement the best code writing practices as possible.</p>
-<p>Thanks for reading.</p>
-
-    </div>
-</section>
-
-
-
 <footer class="footer">
     
     
