@@ -13,7 +13,10 @@
 			background: #0B0B0B;
 		}
 		img {
+			/* height="256" width="256"  */
 			border-radius: 50%;
+			height: 256px;
+			width: 256px;
 			margin-left: 20%;
 		}
 		h1 {
@@ -29,11 +32,24 @@
 			text-decoration: none;
 			color: yellow;
 		}
+		@media only screen and (max-width: 600px) {
+			h1 {
+				font-size: 2.3em;
+			}
+			p {
+				font-size: 1.5em;
+			}
+			img {
+				height: 128px;
+				width: 128px;
+			}
+		}
+
 	</style>
 	 <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
-	<img src="./res/me.jpeg" height="256" width="256" alt="Akash's Avatar">
+	<img src="./res/me.jpeg" alt="Akash's Avatar">
 	<h1>Hi, my name is Akash and <br>I'm a web developer <br>based in India.</h1>
 	<h1></h1>
 	<p>Get in touch with me through 
