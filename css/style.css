@@ -1,0 +1,66 @@
+
+body {
+	font-family: 'Josefin Slab', serif;
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+	background: #0B0B0B;
+}
+/* index.html */
+.avatar-img {
+	border-radius: 50%;
+	height: 256px;
+	width: 256px;
+	margin-left: 20%;
+}
+.introduction-header {
+	font-size: 3.0em;
+	font-weight: bolder;
+	/*color: #8F8F8F;*/
+	color: #dfdfdf;
+}
+.projects {
+	font-size: 2.0em;
+	font-weight: bold;
+	color: #8F8F8F;
+}
+.paragraph {
+	color: #8F8F8F;
+	font-size: 1.5em;
+}
+
+/* project.html */
+.project-body {
+	width: 80%;
+}
+.project-list {
+	margin: 5%;
+}
+.project-title {
+	font-size: 2.2em;
+	color: #BFBFBF;
+	text-decoration: underline;
+}
+.home-link {
+	font-size: 2.0em;
+	font-style: italic;
+	font-weight: lighter;
+
+}
+a {
+	text-decoration: none;
+	color: yellow;
+	/*color: #FFF500;*/
+}
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 2.3em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	.avatar-img {
+		height: 128px;
+		width: 128px;
+	}
+}
